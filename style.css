@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    padding: 30px 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100dvw;
+    background-color: rgb(39, 39, 255);
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    background-color: whitesmoke;
+    padding: 2px;
+    border-radius: 6px;
+
+}
+
+
+section {
+    padding: 20px;
+}
+
+.listaProdutos {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mangas {
+    height: 280px;
+    width: 250px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Action {
+    height: 280px;
+    width: 250px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cosplay {
+    height: 280px;
+    width: 250px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+}
+
